@@ -1,4 +1,4 @@
-# First-Project-In-Go
+# Website Status Monitor
 
 This project was based on the Alura course: https://cursos.alura.com.br/course/golang.
 
