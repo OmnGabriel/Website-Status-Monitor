@@ -1,0 +1,12 @@
+05/07/2023 20:56:49-https://random-status-code.herokuapp.com/ - online: false
+05/07/2023 20:56:49-https://stone.com.br - online: true
+05/07/2023 20:56:50-https://conta.stone.com.br/login - online: true
+05/07/2023 20:56:50-https://www.stone.com.br/adquira/ - online: true
+05/07/2023 20:56:57-https://random-status-code.herokuapp.com/ - online: false
+05/07/2023 20:56:57-https://stone.com.br - online: true
+05/07/2023 20:56:57-https://conta.stone.com.br/login - online: true
+05/07/2023 20:56:57-https://www.stone.com.br/adquira/ - online: true
+05/07/2023 20:57:05-https://random-status-code.herokuapp.com/ - online: false
+05/07/2023 20:57:05-https://stone.com.br - online: true
+05/07/2023 20:57:05-https://conta.stone.com.br/login - online: true
+05/07/2023 20:57:05-https://www.stone.com.br/adquira/ - online: true
