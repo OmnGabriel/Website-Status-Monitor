@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
 	"strconv"
@@ -11,7 +12,7 @@ import (
 	"time"
 )
 
-const monitoramento = 3
+const monitoring = 3
 const delay = 5
 
 func main() {
@@ -24,7 +25,9 @@ func main() {
 		case 1:
 			startMonitoring()
 		case 2:
-			fmt.Println("Showing Log's")
+			showLogs()
+		case 3:
+			deleteLogs()
 		case 0:
 			fmt.Println("Leaving the Program")
 			os.Exit(0)
@@ -36,15 +39,15 @@ func main() {
 }
 
 func showIntro() {
-	name := "Gabriel"
+	fmt.Println("Website monitoring application")
 	version := 0.1
-	fmt.Println("Hello,", name)
-	fmt.Println("This applicatios is on version:", version)
+	fmt.Print("This applications is on version: ", version, "\n\n")
 }
 
 func showMenu() {
 	fmt.Println("1 - Start Monitoring")
-	fmt.Println("2 - Show Log's")
+	fmt.Println("2 - Show logs")
+	fmt.Println("3 - Delete logs")
 	fmt.Println("0 - Leave The Program")
 }
 
@@ -52,22 +55,17 @@ func readCommand() int {
 	var commandWasRead int
 	// Também é válido: fmt.Scanf("%d", &comand)
 	fmt.Scan(&commandWasRead)
-	fmt.Println("The chosen command was", commandWasRead)
 
 	return commandWasRead
 }
 
 func startMonitoring() {
-	fmt.Println(" ")
-	fmt.Println("Sites in monitoring: ")
-	fmt.Println(" ")
+	fmt.Print("\nMonitoring sites... \n")
 
-	readingFilesSites()
-
-	for i := 0; i < monitoramento; i++ {
-		fmt.Print("\n", i+1, "˚ rodada de monitoramento \n\n")
+	for i := 0; i < monitoring; i++ {
+		fmt.Print("\n", i+1, "˚ first round of monitoring \n\n")
 		for i, site := range readingFilesSites() {
-			fmt.Println("Testando site", i, ": ", site)
+			fmt.Println("Testing sites", i, ": ", site)
 			testSite(site)
 		}
 		time.Sleep(delay * time.Second)
@@ -85,11 +83,11 @@ func testSite(site string) {
 	}
 
 	if resp.StatusCode == 200 {
-		fmt.Println("[", resp.StatusCode, "]", "Carregado com sucesso")
+		fmt.Println("[", resp.StatusCode, "]", "Successfully opened")
 		registerLog(site, true)
 		fmt.Println(" ")
 	} else {
-		fmt.Println("[", resp.StatusCode, "]", "Não foi possivel abrir o site:")
+		fmt.Println("[", resp.StatusCode, "]", "Unable to open website:")
 		registerLog(site, false)
 		fmt.Println(" ")
 	}
@@ -115,7 +113,7 @@ func readingFilesSites() []string {
 		if err == io.EOF {
 			break
 		}
-		fmt.Println(sites)
+		fmt.Print(sites, "\n")
 	}
 	file.Close()
 	return sites
@@ -123,7 +121,7 @@ func readingFilesSites() []string {
 
 func errorHandling(err error) string {
 
-	erro, _ := fmt.Println("Ocorreu um erro:", err)
+	erro, _ := fmt.Print("\nAn error occurred: \n ", err, "\n")
 
 	return string(rune(erro))
 }
@@ -136,7 +134,21 @@ func registerLog(site string, status bool) {
 		errorHandling(err)
 	}
 
-	file.WriteString(time.Now().Format("02/01/2006 15:04:05") + " - " + site + " - online: " + strconv.FormatBool(status) + "\n")
+	file.WriteString(time.Now().Format("02/01/2006 15:04:05") + " - " + site + " - online: " + strconv.FormatBool(status) + "\n\n")
 
-	file.Close()
+}
+
+func showLogs() {
+	file, err := ioutil.ReadFile("log.txt")
+	fmt.Print("\nShowing logs \n")
+	if err != nil {
+		errorHandling(err)
+	}
+
+	fmt.Println(string(file))
+}
+
+func deleteLogs() {
+	fmt.Print("\nDeleting all existing logs \n\n")
+	os.Remove("log.txt")
 }
