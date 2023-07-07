@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strconv"
@@ -38,22 +37,20 @@ func main() {
 	}
 }
 
-func showIntro() {
-	fmt.Println("Website monitoring application")
-	version := 0.1
-	fmt.Print("This applications is on version: ", version, "\n\n")
+func showIntro() string {
+	intro := "\nWebsite Monitoring Application\nIs on version: 1.0\n\n"
+	print(intro)
+	return intro
 }
 
-func showMenu() {
-	fmt.Println("1 - Start Monitoring")
-	fmt.Println("2 - Show logs")
-	fmt.Println("3 - Delete logs")
-	fmt.Println("0 - Leave The Program")
+func showMenu() string {
+	menu := "1 - Start Monitoring\n2 - Show logs\n3 - Delete logs\n0 - Leave The Program\n\n"
+	print(menu)
+	return menu
 }
 
 func readCommand() int {
 	var commandWasRead int
-	// Também é válido: fmt.Scanf("%d", &comand)
 	fmt.Scan(&commandWasRead)
 
 	return commandWasRead
@@ -63,16 +60,18 @@ func startMonitoring() {
 	fmt.Print("\nMonitoring sites... \n")
 
 	for i := 0; i < monitoring; i++ {
-		fmt.Print("\n", i+1, "˚ first round of monitoring \n\n")
-		for i, site := range readingFilesSites() {
-			fmt.Println("Testing sites", i, ": ", site)
-			testSite(site)
-		}
+		fmt.Printf("\n%d˚ round of monitoring \n\n", i+1)
+		loopForMonitoring(i)
+	}
+}
+
+func loopForMonitoring(i int) int {
+	for i, site := range readingFilesSites() {
+		fmt.Printf("Testing site %d: %q\n", i+1, site)
+		testSite(site)
 		time.Sleep(delay * time.Second)
 	}
-
-	fmt.Println(" ")
-
+	return i
 }
 
 func testSite(site string) {
@@ -87,7 +86,7 @@ func testSite(site string) {
 		registerLog(site, true)
 		fmt.Println(" ")
 	} else {
-		fmt.Println("[", resp.StatusCode, "]", "Unable to open website:")
+		fmt.Println("[", resp.StatusCode, "]", "Unable to open website")
 		registerLog(site, false)
 		fmt.Println(" ")
 	}
@@ -113,7 +112,6 @@ func readingFilesSites() []string {
 		if err == io.EOF {
 			break
 		}
-		fmt.Print(sites, "\n")
 	}
 	file.Close()
 	return sites
@@ -139,7 +137,7 @@ func registerLog(site string, status bool) {
 }
 
 func showLogs() {
-	file, err := ioutil.ReadFile("log.txt")
+	file, err := os.ReadFile("log.txt")
 	fmt.Print("\nShowing logs \n")
 	if err != nil {
 		errorHandling(err)

@@ -1,0 +1,294 @@
+07/07/2023 14:21:15 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:21:20 - https://stone.com.br - online: true
+
+07/07/2023 14:21:25 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:21:30 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:22:01 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:22:06 - https://stone.com.br - online: true
+
+07/07/2023 14:22:12 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:22:17 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:37:14 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:37:20 - https://stone.com.br - online: true
+
+07/07/2023 14:37:25 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:37:30 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:37:42 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:37:48 - https://stone.com.br - online: true
+
+07/07/2023 14:37:53 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:37:58 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:38:48 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:38:53 - https://stone.com.br - online: true
+
+07/07/2023 14:38:59 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:39:04 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:39:16 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:39:21 - https://stone.com.br - online: true
+
+07/07/2023 14:39:26 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:39:31 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:41:46 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:41:52 - https://stone.com.br - online: true
+
+07/07/2023 14:41:57 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:42:02 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:42:14 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:42:19 - https://stone.com.br - online: true
+
+07/07/2023 14:42:25 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:42:30 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:50:08 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:50:14 - https://stone.com.br - online: true
+
+07/07/2023 14:50:19 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:50:24 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:50:40 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:50:45 - https://stone.com.br - online: true
+
+07/07/2023 14:50:51 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:50:56 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:51:52 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:51:58 - https://stone.com.br - online: true
+
+07/07/2023 14:52:03 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:52:08 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:52:21 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:52:26 - https://stone.com.br - online: true
+
+07/07/2023 14:52:31 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:52:36 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:53:38 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:53:44 - https://stone.com.br - online: true
+
+07/07/2023 14:53:49 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:53:54 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:54:07 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:54:12 - https://stone.com.br - online: true
+
+07/07/2023 14:54:17 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:54:22 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:56:53 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:56:58 - https://stone.com.br - online: true
+
+07/07/2023 14:57:03 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:57:08 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:57:24 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:57:29 - https://stone.com.br - online: true
+
+07/07/2023 14:57:34 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:57:39 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:58:43 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:58:48 - https://stone.com.br - online: true
+
+07/07/2023 14:58:54 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:58:59 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:59:11 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:59:16 - https://stone.com.br - online: true
+
+07/07/2023 14:59:21 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:59:26 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:59:33 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:59:39 - https://stone.com.br - online: true
+
+07/07/2023 14:59:44 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 14:59:49 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 14:59:53 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 14:59:58 - https://stone.com.br - online: true
+
+07/07/2023 15:00:04 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:00:09 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:00:09 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:00:14 - https://stone.com.br - online: true
+
+07/07/2023 15:00:19 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:00:38 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:00:44 - https://stone.com.br - online: true
+
+07/07/2023 15:00:49 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:01:21 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:01:27 - https://stone.com.br - online: true
+
+07/07/2023 15:01:32 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:01:37 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:01:49 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:01:55 - https://stone.com.br - online: true
+
+07/07/2023 15:02:00 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:02:05 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:04:04 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:04:10 - https://stone.com.br - online: true
+
+07/07/2023 15:04:15 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:04:20 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:04:32 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:04:37 - https://stone.com.br - online: true
+
+07/07/2023 15:04:42 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:04:47 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:05:12 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:05:18 - https://stone.com.br - online: true
+
+07/07/2023 15:05:23 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:05:28 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:05:40 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:05:46 - https://stone.com.br - online: true
+
+07/07/2023 15:05:51 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:05:56 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:07:48 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:07:53 - https://stone.com.br - online: true
+
+07/07/2023 15:07:58 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:08:04 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:08:32 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:08:38 - https://stone.com.br - online: true
+
+07/07/2023 15:08:43 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:08:48 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:09:04 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:09:09 - https://stone.com.br - online: true
+
+07/07/2023 15:09:14 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:09:19 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:11:04 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:11:10 - https://stone.com.br - online: true
+
+07/07/2023 15:11:15 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:11:20 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:13:04 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:13:21 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:13:27 - https://stone.com.br - online: true
+
+07/07/2023 15:13:32 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:13:37 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:15:17 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:15:22 - https://stone.com.br - online: true
+
+07/07/2023 15:15:28 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:15:33 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:21:17 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:21:23 - https://stone.com.br - online: true
+
+07/07/2023 15:21:28 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:21:33 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:23:01 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:23:06 - https://stone.com.br - online: true
+
+07/07/2023 15:23:11 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:23:16 - https://www.stone.com.br/adquira/ - online: true
+
+07/07/2023 15:25:38 - https://random-status-code.herokuapp.com/ - online: false
+
+07/07/2023 15:25:43 - https://stone.com.br - online: true
+
+07/07/2023 15:25:49 - https://conta.stone.com.br/login - online: true
+
+07/07/2023 15:25:54 - https://www.stone.com.br/adquira/ - online: true
+
