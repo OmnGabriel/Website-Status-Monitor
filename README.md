@@ -2,8 +2,7 @@
 
 This project was based on the Alura course: https://cursos.alura.com.br/course/golang.
 
-With occasional changes, so that it stays the way I prefer, this was my first contact with Golang, so there are certainly changes that can be made to make it more enjoyable, this is the first of a series of projects in go that I will be working on implement, wait for news. :)
-​
+I made some changes compared to the design of the course to make it more in line with my style, this was my first contact with Golang so there are certainly changes that can be made to make it more enjoyable.
 
 The unit tests were done exclusively by me, researching how to do unit tests in golang, looking for the official documentation. Finally, I discovered that it is not difficult to create tests from scratch in Go, being possible to carry out tests without having to download any extra dependencies or frameworks.
 
