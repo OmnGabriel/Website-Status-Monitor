@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const monitoring = 3
+const monitoring = 1
 const delay = 5
 
 func main() {
@@ -56,13 +56,14 @@ func readCommand() int {
 	return commandWasRead
 }
 
-func startMonitoring() {
+func startMonitoring() int {
 	fmt.Print("\nMonitoring sites... \n")
-
+	var i int
 	for i := 0; i < monitoring; i++ {
 		fmt.Printf("\n%d˚ round of monitoring \n\n", i+1)
 		loopForMonitoring(i)
 	}
+	return i
 }
 
 func loopForMonitoring(i int) int {
@@ -74,7 +75,7 @@ func loopForMonitoring(i int) int {
 	return i
 }
 
-func testSite(site string) {
+func testSite(site string) string {
 	resp, err := http.Get(site)
 
 	if err != nil {
@@ -90,7 +91,7 @@ func testSite(site string) {
 		registerLog(site, false)
 		fmt.Println(" ")
 	}
-
+	return site
 }
 
 func readingFilesSites() []string {
@@ -119,8 +120,7 @@ func readingFilesSites() []string {
 
 func errorHandling(err error) string {
 
-	erro, _ := fmt.Print("\nAn error occurred: \n ", err, "\n")
-
+	erro, _ := fmt.Print("An unexpected error occurred\n")
 	return string(rune(erro))
 }
 

@@ -1,48 +1,84 @@
 package main
 
 import (
+	"fmt"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
 )
 
 func TestToVerifyTheReturnOfTheShowIntroFunction(t *testing.T) {
 	//Arrange
-	response := "\nWebsite Monitoring Application\nIs on version: 1.0\n\n"
+	expected := "\nWebsite Monitoring Application\nIs on version: 1.0\n\n"
 
 	//Act
-	espected := showIntro()
+	response := showIntro()
 
 	// Assert
-	if response != espected {
-		t.Errorf("Response received was: %q, expected is: %q", response, espected)
+	if response != expected {
+		t.Errorf("Response received was: %q, expected is: %q", response, expected)
 	}
 }
 
 func TestToVerifyTheReturnOfTheShowMenuFunction(t *testing.T) {
-	response := "1 - Start Monitoring\n2 - Show logs\n3 - Delete logs\n0 - Leave The Program\n\n"
+	expected := "1 - Start Monitoring\n2 - Show logs\n3 - Delete logs\n0 - Leave The Program\n\n"
 
-	espected := showMenu()
+	response := showMenu()
 
-	if response != espected {
-		t.Errorf("Response received was: %q, expected is: %q", response, espected)
+	if response != expected {
+		t.Errorf("Response received was: %q, expected is: %q", response, expected)
 	}
 }
 
 func TestToVerifyTheReturnOfTheReadCommandFunctionIsAInt(t *testing.T) {
-	var response int
+	var expected int
 
-	espected := readCommand()
+	response := readCommand()
 
-	if response != espected {
-		t.Errorf("Response received was: %d, expected is: %d", response, espected)
+	if response != expected {
+		t.Errorf("Response received was: %d, expected is: %d", response, expected)
 	}
 }
 
 func TestToVerifyTheLoopForMonitoringFunction(t *testing.T) {
-	response := 0
+	expected := 0
 
-	espected := loopForMonitoring(0)
+	response := loopForMonitoring(0)
 
-	if response != espected {
-		t.Errorf("Response received was: %d, expected is: %d", response, espected)
+	if response != expected {
+		t.Errorf("Response received was: %d, expected is: %d", response, expected)
+	}
+}
+
+func TestToVerifyReadingFilesSitesFunction(t *testing.T) {
+	var expected []string
+
+	response := readingFilesSites()
+
+	fmt.Println()
+	if cmp.Equal(response, expected) == true {
+		t.Errorf("Response received was: %q, expected is: %q", response, expected)
+	}
+}
+
+func TestToVerifyErrorHandlingFunction(t *testing.T) {
+	expected := "\x1d"
+	var err error
+
+	response := errorHandling(err)
+	if response != expected {
+		t.Errorf("Response received was: %q, expected is: %q", response, expected)
+
+	}
+
+}
+
+func TestToVerifyStartMonitoringLoopFunction(t *testing.T) {
+	expected := 0
+
+	response := startMonitoring()
+
+	if response != expected {
+		t.Errorf("Response received was: %d, expected is: %d", response, expected)
 	}
 }
